@@ -269,6 +269,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+
 }
 
 .container {
@@ -353,14 +354,12 @@ h1 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    opacity: 0.9;
 }
 
 .tc-white {
     color: white!important;
-    background-color: rgba(0, 0, 0, .1);
     padding: 5px;
-    border-radius: 10px;
-
 }
 
 .btn-atomic-tangerine {
@@ -382,18 +381,13 @@ h1 {
     color: #cccccc!important;
 }
 
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
-}
+    opacity: 0.9;}
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
@@ -465,8 +459,8 @@ h1 {
         width: auto;
     }
     .bloc {
-        padding-left: 1px;
-        padding-right: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     
     .bloc-lg {
@@ -495,7 +489,7 @@ h1 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 1px;
-        padding-right: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
